@@ -6,10 +6,10 @@ const fs = require('fs');
 const moment = require('moment');
 
 
-//cors origin issue
+
 app.use(cors({ origin: "*" }));
 
-//body-parser middleware
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
